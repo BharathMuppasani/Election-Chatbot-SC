@@ -1,0 +1,217 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: south_carolina_new_voting
+  examples: |
+    - What is South Carolina's new voting system and how does it work? 
+    
+- intent: benefit_ballotmarking_device
+  examples: |
+    - What are the benefits of a ballot-marking device?
+    
+- intent: south_carolina_election_secure
+  examples: |
+    - Are South Carolina's elections secure? 
+    
+- intent: voting_machine_connected_internet
+  examples: |
+    - Is the voting machine connected to the Internet while I am voting?
+    
+- intent: volunteer_poll_manager
+  examples: |
+    - How can I volunteer to be a poll manager?
+    
+- intent: submit_change_address_register
+  examples: |
+    - How do I submit a change of address or register for my voting area?
+    
+- intent: ive_moved_havent_updated
+  examples: |
+    - Ive moved and havent updated my voter registration card. Can I still vote?
+    
+- intent: moved_south_carolina_30
+  examples: |
+    - I have moved to South Carolina after the 30 day voter registration deadline, can I still vote?
+    
+- intent: confirmation_card_mailing
+  examples: |
+    - Confirmation Card Mailings
+    
+- intent: take_poll_vote
+  examples: |
+    - What do I take with me to the polls to vote?
+    
+- intent: dont_one_photo_id
+  examples: |
+    - What if I dont have one of these Photo IDs?
+    
+- intent: driver_licensedmv_id_card
+  examples: |
+    - Does my Drivers License/DMV ID Card have to be a REAL ID?
+    
+- intent: happens_photo_id_forget
+  examples: |
+    - What happens if I have a Photo ID but forget to bring it to my polling place?
+    
+- intent: ive_lost_photo_id
+  examples: |
+    - Ive lost my Photo ID. Can I still vote?
+    
+- intent: ive_lost_nonphoto_voter
+  examples: |
+    - Ive lost my non-photo voter registration card. Can I still vote?
+    
+- intent: apply_absentee_ballot
+  examples: |
+    - How do I apply for an absentee ballot?
+    
+- intent: find_candidate_referendum_information
+  examples: |
+    - Where can I find candidate and referendum information?
+    
+- intent: find_sample_ballot
+  examples: |
+    - Where can I find a sample ballot?
+    
+- intent: election_result_posted_poll
+  examples: |
+    - How are election results posted for poll watchers?
+    
+- intent: official_result
+  examples: |
+    - What are official results?
+    
+- intent: recount_necessary
+  examples: |
+    - When is a recount necessary?
+    
+- intent: left_poll_asked_participate
+  examples: |
+    - When I left the polls, I was asked to participate in an "exit poll." Is this legal?
+    
+- intent: saw_candidatemember_candidate_campaign
+  examples: |
+    - I saw a candidate/member of candidates campaign at my polling place talking to voters. Can he do that?
+    
+- intent: candidate_definitely_campaigning_polling
+  examples: |
+    - A candidate is definitely campaigning while in the polling place. What can I do?
+    
+- intent: candidate_representative_take_people
+  examples: |
+    - Can candidates or their representatives take people to the polls to vote?
+    
+- intent: take_child_vote
+  examples: |
+    - Can I take my child with me to vote?
+    
+- intent: ballot_selfies_legal_take
+  examples: |
+    - Are ballot selfies legal? Can I take a picture of my ballot and share it with others?
+    
+- intent: alcoholic_beverage_sold_election
+  examples: |
+    - Can alcoholic beverages be sold on Election Day?
+    
+- intent: lottery_ticket_sold_election
+  examples: |
+    - Can lottery tickets be sold on Election Day?
+    
+- intent: report_issue_file_complaint
+  examples: |
+    - Where can I report an issue or file a complaint about the election?
+    
+- intent: cant_find_answer_question
+  examples: |
+    - I can't find an answer to my question, are there other resources available?
+    

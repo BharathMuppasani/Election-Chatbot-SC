@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <style> 
+      @font-face {
+         font-family: Roboto;
+         src: url(Roboto-Medium.ttf);
+      }
+      
+      * {
+         font-family: Roboto;
+      }
+      </style>
+  </head>
+    <body>
+        <h1 align="center" style="color:rgb(176, 6, 6);">ElectionBot for South Carolina</h1>
+        <h3 style="color:rgb(176, 6, 6);">Information for the User</h3>
+        <ul>
+          <li>Click on the messenger icon at the bottom right to interact with ElectionBot</li>
+          <li>Use "Bye" to end the conversation</li>
+        </ul>
+        <h3 style="color:rgb(176, 6, 6);">Sample Questions</h3>
+        <ul>
+          <li>In-Scope Questions</li>
+            <ul>
+              <li>What is South Carolina's new voting system and how does it work?</li>
+              <li>Is the voting machine connected to the Internet while I am voting?</li>
+              <li>Can candidates or their representatives take people to the polls to vote?</li>
+              <li>What happens if I have a Photo ID but forget to bring it to my polling place?</li>
+            </ul>
+          <br>
+          <li>Out-of-Scope Question</li>
+            <ul>
+              <li>Are Republicans going to win the elections?</li>
+              <li>Whom should I vote for?</li>
+              <li>Who do you think is going to win the elections?</li>
+              <li>Are Democrats going to win the elections?</li>
+            </ul>
+        </ul>
+        <script>!(function () {
+            localStorage.clear();
+            let e = document.createElement("script"),
+              t = document.head || document.getElementsByTagName("head")[0];
+            (e.src =
+              "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+              // Replace 1.x.x with the version that you want
+              (e.async = !0),
+              (e.onload = () => {
+                window.WebChat.default(
+                  {
+                    initPayload: '/greet',
+                    customData: { language: "en" },
+                    socketUrl: "http://localhost:5005",
+                    // add other props here
+                  },
+                  null
+                );
+              }),
+              t.insertBefore(e, t.firstChild);
+          })();
+          </script>
+    </body>
+</html>

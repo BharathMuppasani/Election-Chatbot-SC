@@ -1,0 +1,175 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_out_of_scope
+
+
+- rule: Answer south_carolina_new_voting
+  steps:
+  - intent: south_carolina_new_voting
+  - action: utter_south_carolina_new_voting
+    
+- rule: Answer benefit_ballotmarking_device
+  steps:
+  - intent: benefit_ballotmarking_device
+  - action: utter_benefit_ballotmarking_device
+    
+- rule: Answer south_carolina_election_secure
+  steps:
+  - intent: south_carolina_election_secure
+  - action: utter_south_carolina_election_secure
+    
+- rule: Answer voting_machine_connected_internet
+  steps:
+  - intent: voting_machine_connected_internet
+  - action: utter_voting_machine_connected_internet
+    
+- rule: Answer volunteer_poll_manager
+  steps:
+  - intent: volunteer_poll_manager
+  - action: utter_volunteer_poll_manager
+    
+- rule: Answer submit_change_address_register
+  steps:
+  - intent: submit_change_address_register
+  - action: utter_submit_change_address_register
+    
+- rule: Answer ive_moved_havent_updated
+  steps:
+  - intent: ive_moved_havent_updated
+  - action: utter_ive_moved_havent_updated
+    
+- rule: Answer moved_south_carolina_30
+  steps:
+  - intent: moved_south_carolina_30
+  - action: utter_moved_south_carolina_30
+    
+- rule: Answer confirmation_card_mailing
+  steps:
+  - intent: confirmation_card_mailing
+  - action: utter_confirmation_card_mailing
+    
+- rule: Answer take_poll_vote
+  steps:
+  - intent: take_poll_vote
+  - action: utter_take_poll_vote
+    
+- rule: Answer dont_one_photo_id
+  steps:
+  - intent: dont_one_photo_id
+  - action: utter_dont_one_photo_id
+    
+- rule: Answer driver_licensedmv_id_card
+  steps:
+  - intent: driver_licensedmv_id_card
+  - action: utter_driver_licensedmv_id_card
+    
+- rule: Answer happens_photo_id_forget
+  steps:
+  - intent: happens_photo_id_forget
+  - action: utter_happens_photo_id_forget
+    
+- rule: Answer ive_lost_photo_id
+  steps:
+  - intent: ive_lost_photo_id
+  - action: utter_ive_lost_photo_id
+    
+- rule: Answer ive_lost_nonphoto_voter
+  steps:
+  - intent: ive_lost_nonphoto_voter
+  - action: utter_ive_lost_nonphoto_voter
+    
+- rule: Answer apply_absentee_ballot
+  steps:
+  - intent: apply_absentee_ballot
+  - action: utter_apply_absentee_ballot
+    
+- rule: Answer find_candidate_referendum_information
+  steps:
+  - intent: find_candidate_referendum_information
+  - action: utter_find_candidate_referendum_information
+    
+- rule: Answer find_sample_ballot
+  steps:
+  - intent: find_sample_ballot
+  - action: utter_find_sample_ballot
+    
+- rule: Answer election_result_posted_poll
+  steps:
+  - intent: election_result_posted_poll
+  - action: utter_election_result_posted_poll
+    
+- rule: Answer official_result
+  steps:
+  - intent: official_result
+  - action: utter_official_result
+    
+- rule: Answer recount_necessary
+  steps:
+  - intent: recount_necessary
+  - action: utter_recount_necessary
+    
+- rule: Answer left_poll_asked_participate
+  steps:
+  - intent: left_poll_asked_participate
+  - action: utter_left_poll_asked_participate
+    
+- rule: Answer saw_candidatemember_candidate_campaign
+  steps:
+  - intent: saw_candidatemember_candidate_campaign
+  - action: utter_saw_candidatemember_candidate_campaign
+    
+- rule: Answer candidate_definitely_campaigning_polling
+  steps:
+  - intent: candidate_definitely_campaigning_polling
+  - action: utter_candidate_definitely_campaigning_polling
+    
+- rule: Answer candidate_representative_take_people
+  steps:
+  - intent: candidate_representative_take_people
+  - action: utter_candidate_representative_take_people
+    
+- rule: Answer take_child_vote
+  steps:
+  - intent: take_child_vote
+  - action: utter_take_child_vote
+    
+- rule: Answer ballot_selfies_legal_take
+  steps:
+  - intent: ballot_selfies_legal_take
+  - action: utter_ballot_selfies_legal_take
+    
+- rule: Answer alcoholic_beverage_sold_election
+  steps:
+  - intent: alcoholic_beverage_sold_election
+  - action: utter_alcoholic_beverage_sold_election
+    
+- rule: Answer lottery_ticket_sold_election
+  steps:
+  - intent: lottery_ticket_sold_election
+  - action: utter_lottery_ticket_sold_election
+    
+- rule: Answer report_issue_file_complaint
+  steps:
+  - intent: report_issue_file_complaint
+  - action: utter_report_issue_file_complaint
+    
+- rule: Answer cant_find_answer_question
+  steps:
+  - intent: cant_find_answer_question
+  - action: utter_cant_find_answer_question
+    
