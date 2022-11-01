@@ -1,0 +1,118 @@
+input_time|conversation_id|count|intent|user_input| entity_name|entity_value|action|bot_reply|
+2022-10-27 16:16:16.404150|7c7d4bba78834d01937df49e85703aef|U0|greet|hi|
+2022-10-27 16:16:16.412114|7c7d4bba78834d01937df49e85703aef|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|U1|mood_unhappy|whats upp|
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|B1|||||utter_cheer_up|Here is something to cheer you up:
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|B2|||||utter_did_that_help|Did that help you?
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|U2|goodbye|bye|
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|B3|||||utter_goodbye|Bye
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|U0|greet|hi|
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|U1|mood_unhappy|whats upp|
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|B1|||||utter_cheer_up|Here is something to cheer you up:
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|B2|||||utter_did_that_help|Did that help you?
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|U2|goodbye|bye|
+2022-10-27 16:22:22.266678|7c7d4bba78834d01937df49e85703aef|B3|||||utter_goodbye|Bye
+2022-10-27 16:22:22.266678|7c7d4bba78834d01937df49e85703aef|U3|greet|hi|
+2022-10-27 16:22:22.266678|7c7d4bba78834d01937df49e85703aef|B4|||||utter_greet|Hey! How are you?
+2022-10-27 16:22:22.269051|7c7d4bba78834d01937df49e85703aef|U4|bot_challenge|how are youuuu|
+2022-10-27 16:22:22.269051|7c7d4bba78834d01937df49e85703aef|B5|||||utter_iamabot|I am a bot, powered by Rasa.
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|U0|greet|hi|
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|U1|mood_unhappy|whats upp|
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|B1|||||utter_cheer_up|Here is something to cheer you up:
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|B2|||||utter_did_that_help|Did that help you?
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|U2|goodbye|bye|
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|B3|||||utter_goodbye|Bye
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|U3|greet|hi|
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|B4|||||utter_greet|Hey! How are you?
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|U4|bot_challenge|how are youuuu|
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|B5|||||utter_iamabot|I am a bot, powered by Rasa.
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|U5|goodbye|bye|
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|B6|||||utter_goodbye|Bye
+2022-10-27 16:24:54.513998|a3652bcf738c4b72bfec5c9b8578cd23|U0|greet|hello|
+2022-10-27 16:24:54.513998|a3652bcf738c4b72bfec5c9b8578cd23|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:24:54.513998|a3652bcf738c4b72bfec5c9b8578cd23|U1|bot_challenge|what do you know|
+2022-10-27 16:24:54.513998|a3652bcf738c4b72bfec5c9b8578cd23|B1|||||utter_iamabot|I am a bot, powered by Rasa.
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|U2|goodbye|bye|
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|B2|||||utter_goodbye|Bye
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|U3|greet|hi|
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|B3|||||utter_greet|Hey! How are you?
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|U4|affirm|sorry|
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|B4|||||utter_happy|Great, carry on!
+2022-10-27 16:25:02.297127|a3652bcf738c4b72bfec5c9b8578cd23|U0|greet|hello|
+2022-10-27 16:25:02.297127|a3652bcf738c4b72bfec5c9b8578cd23|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U1|bot_challenge|what do you know|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B1|||||utter_iamabot|I am a bot, powered by Rasa.
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U2|goodbye|bye|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B2|||||utter_goodbye|Bye
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U3|greet|hi|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B3|||||utter_greet|Hey! How are you?
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U4|affirm|sorry|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B4|||||utter_happy|Great, carry on!
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U5|goodbye|bye|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B5|||||utter_goodbye|Bye
+2022-10-31 15:31:59.689458|d78cce66fae94faaafb045ee9fe35a60|U0|Do not answer|do democrats suck?|
+2022-10-31 15:31:59.689458|d78cce66fae94faaafb045ee9fe35a60|B0|||||utter_Do not answer|Sorry, I am not able to answer this question.
+2022-10-31 15:31:59.689458|d78cce66fae94faaafb045ee9fe35a60|U1|Do not answer|which party is likely to win the elections?|
+2022-10-31 15:31:59.689458|d78cce66fae94faaafb045ee9fe35a60|B1|||||utter_Do not answer|Sorry, I am not able to answer this question.
+2022-10-31 15:31:59.689458|d78cce66fae94faaafb045ee9fe35a60|U2|report_issue_file_complaint|do you know about dogs?|
+2022-10-31 15:31:59.689458|d78cce66fae94faaafb045ee9fe35a60|B2|||||utter_report_issue_file_complaint|Any issues or complaints about an issue at a voting location should first be addressed to a poll manager.  Poll managers may be able to quickly resolve the issue. If not resolved at the voting location, or if the issue or complaint is regarding some other aspect of the election, voters should contact their county elections office as soon as possible.
+2022-10-31 15:31:59.689458|d78cce66fae94faaafb045ee9fe35a60|U3|report_issue_file_complaint|tell me about animals|
+2022-10-31 15:31:59.689458|d78cce66fae94faaafb045ee9fe35a60|B3|||||utter_report_issue_file_complaint|Any issues or complaints about an issue at a voting location should first be addressed to a poll manager.  Poll managers may be able to quickly resolve the issue. If not resolved at the voting location, or if the issue or complaint is regarding some other aspect of the election, voters should contact their county elections office as soon as possible.
+2022-10-31 15:31:59.689458|d78cce66fae94faaafb045ee9fe35a60|U4|report_issue_file_complaint|do you know about president?|
+2022-10-31 15:31:59.689458|d78cce66fae94faaafb045ee9fe35a60|B4|||||utter_report_issue_file_complaint|Any issues or complaints about an issue at a voting location should first be addressed to a poll manager.  Poll managers may be able to quickly resolve the issue. If not resolved at the voting location, or if the issue or complaint is regarding some other aspect of the election, voters should contact their county elections office as soon as possible.
+2022-10-31 15:31:59.689458|d78cce66fae94faaafb045ee9fe35a60|U5|voting_system_connected_internet|is the voting system connected to the internet?|
+2022-10-31 15:31:59.689458|d78cce66fae94faaafb045ee9fe35a60|B5|||||utter_voting_system_connected_internet|No, the voting system is never connected to the internet. Computers used to tabulate votes, BMDs, and ballot scanners used in South Carolina are not even capable of being connected to the internet.
+2022-10-31 15:31:59.689458|d78cce66fae94faaafb045ee9fe35a60|U6|voting_system_connected_internet|internet connection status of voting system|
+2022-10-31 15:31:59.689458|d78cce66fae94faaafb045ee9fe35a60|B6|||||utter_voting_system_connected_internet|No, the voting system is never connected to the internet. Computers used to tabulate votes, BMDs, and ballot scanners used in South Carolina are not even capable of being connected to the internet.
+2022-10-31 15:31:59.701984|d78cce66fae94faaafb045ee9fe35a60|U7|trust_accuracy_result|accuracy of election results, is it trust worthy?|
+2022-10-31 15:31:59.701984|d78cce66fae94faaafb045ee9fe35a60|B7|||||utter_trust_accuracy_result|Election officials work to ensure a strong and resilient election infrastructure that will continue to serve South Carolinians in the face of any adversity. Download our resource for an overview of the processes and procedures implemented to keep elections in South Carolina accurate, secure, accessible, and credible. (https://scvotes.gov/wp-content/uploads/2022/09/2022-FALL-Election-Integrity-in-SC.pdf) 
+2022-10-31 15:31:59.701984|d78cce66fae94faaafb045ee9fe35a60|U8|nlu_fallback|animals|
+2022-10-31 15:31:59.701984|d78cce66fae94faaafb045ee9fe35a60|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|U0|Do not answer|do democrats suck?|
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|B0|||||utter_Do not answer|Sorry, I am not able to answer this question.
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|U1|Do not answer|which party is likely to win the elections?|
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|B1|||||utter_Do not answer|Sorry, I am not able to answer this question.
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|U2|report_issue_file_complaint|do you know about dogs?|
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|B2|||||utter_report_issue_file_complaint|Any issues or complaints about an issue at a voting location should first be addressed to a poll manager.  Poll managers may be able to quickly resolve the issue. If not resolved at the voting location, or if the issue or complaint is regarding some other aspect of the election, voters should contact their county elections office as soon as possible.
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|U3|report_issue_file_complaint|tell me about animals|
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|B3|||||utter_report_issue_file_complaint|Any issues or complaints about an issue at a voting location should first be addressed to a poll manager.  Poll managers may be able to quickly resolve the issue. If not resolved at the voting location, or if the issue or complaint is regarding some other aspect of the election, voters should contact their county elections office as soon as possible.
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|U4|report_issue_file_complaint|do you know about president?|
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|B4|||||utter_report_issue_file_complaint|Any issues or complaints about an issue at a voting location should first be addressed to a poll manager.  Poll managers may be able to quickly resolve the issue. If not resolved at the voting location, or if the issue or complaint is regarding some other aspect of the election, voters should contact their county elections office as soon as possible.
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|U5|voting_system_connected_internet|is the voting system connected to the internet?|
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|B5|||||utter_voting_system_connected_internet|No, the voting system is never connected to the internet. Computers used to tabulate votes, BMDs, and ballot scanners used in South Carolina are not even capable of being connected to the internet.
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|U6|voting_system_connected_internet|internet connection status of voting system|
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|B6|||||utter_voting_system_connected_internet|No, the voting system is never connected to the internet. Computers used to tabulate votes, BMDs, and ballot scanners used in South Carolina are not even capable of being connected to the internet.
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|U7|trust_accuracy_result|accuracy of election results, is it trust worthy?|
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|B7|||||utter_trust_accuracy_result|Election officials work to ensure a strong and resilient election infrastructure that will continue to serve South Carolinians in the face of any adversity. Download our resource for an overview of the processes and procedures implemented to keep elections in South Carolina accurate, secure, accessible, and credible. (https://scvotes.gov/wp-content/uploads/2022/09/2022-FALL-Election-Integrity-in-SC.pdf) 
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|U8|nlu_fallback|animals|
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|U9|goodbye|bye|
+2022-10-31 15:32:13.932393|d78cce66fae94faaafb045ee9fe35a60|B9|||||utter_goodbye|Bye
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|U0|Do not answer|do democrats suck?|
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|B0|||||utter_Do not answer|Sorry, I am not able to answer this question.
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|U1|Do not answer|which party is likely to win the elections?|
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|B1|||||utter_Do not answer|Sorry, I am not able to answer this question.
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|U2|report_issue_file_complaint|do you know about dogs?|
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|B2|||||utter_report_issue_file_complaint|Any issues or complaints about an issue at a voting location should first be addressed to a poll manager.  Poll managers may be able to quickly resolve the issue. If not resolved at the voting location, or if the issue or complaint is regarding some other aspect of the election, voters should contact their county elections office as soon as possible.
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|U3|report_issue_file_complaint|tell me about animals|
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|B3|||||utter_report_issue_file_complaint|Any issues or complaints about an issue at a voting location should first be addressed to a poll manager.  Poll managers may be able to quickly resolve the issue. If not resolved at the voting location, or if the issue or complaint is regarding some other aspect of the election, voters should contact their county elections office as soon as possible.
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|U4|report_issue_file_complaint|do you know about president?|
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|B4|||||utter_report_issue_file_complaint|Any issues or complaints about an issue at a voting location should first be addressed to a poll manager.  Poll managers may be able to quickly resolve the issue. If not resolved at the voting location, or if the issue or complaint is regarding some other aspect of the election, voters should contact their county elections office as soon as possible.
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|U5|voting_system_connected_internet|is the voting system connected to the internet?|
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|B5|||||utter_voting_system_connected_internet|No, the voting system is never connected to the internet. Computers used to tabulate votes, BMDs, and ballot scanners used in South Carolina are not even capable of being connected to the internet.
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|U6|voting_system_connected_internet|internet connection status of voting system|
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|B6|||||utter_voting_system_connected_internet|No, the voting system is never connected to the internet. Computers used to tabulate votes, BMDs, and ballot scanners used in South Carolina are not even capable of being connected to the internet.
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|U7|trust_accuracy_result|accuracy of election results, is it trust worthy?|
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|B7|||||utter_trust_accuracy_result|Election officials work to ensure a strong and resilient election infrastructure that will continue to serve South Carolinians in the face of any adversity. Download our resource for an overview of the processes and procedures implemented to keep elections in South Carolina accurate, secure, accessible, and credible. (https://scvotes.gov/wp-content/uploads/2022/09/2022-FALL-Election-Integrity-in-SC.pdf) 
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|U8|nlu_fallback|animals|
+2022-10-31 15:40:56.735441|d78cce66fae94faaafb045ee9fe35a60|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2022-10-31 15:40:56.747964|d78cce66fae94faaafb045ee9fe35a60|U9|goodbye|bye|
+2022-10-31 15:40:56.747964|d78cce66fae94faaafb045ee9fe35a60|B9|||||utter_goodbye|Bye
+2022-10-31 15:40:56.747964|d78cce66fae94faaafb045ee9fe35a60|U10|report_issue_file_complaint|do you know about|
+2022-10-31 15:40:56.747964|d78cce66fae94faaafb045ee9fe35a60|B10|||||utter_report_issue_file_complaint|Any issues or complaints about an issue at a voting location should first be addressed to a poll manager.  Poll managers may be able to quickly resolve the issue. If not resolved at the voting location, or if the issue or complaint is regarding some other aspect of the election, voters should contact their county elections office as soon as possible.
+2022-10-31 15:40:56.747964|d78cce66fae94faaafb045ee9fe35a60|U11|voting_system_connected_internet|do you know about internet status of voting system|
+2022-10-31 15:40:56.747964|d78cce66fae94faaafb045ee9fe35a60|B11|||||utter_voting_system_connected_internet|No, the voting system is never connected to the internet. Computers used to tabulate votes, BMDs, and ballot scanners used in South Carolina are not even capable of being connected to the internet.
+2022-10-31 15:40:56.747964|d78cce66fae94faaafb045ee9fe35a60|U12|nlu_fallback|is dog a good animal|
+2022-10-31 15:40:56.747964|d78cce66fae94faaafb045ee9fe35a60|B12|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
