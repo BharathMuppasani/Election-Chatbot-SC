@@ -306,7 +306,7 @@ If not resolved at the voting location, or if the issue or complaint is regardin
 "
     
   utter_Do not answer:
-  - text: "Sorry, I am not able to answer this question."
+  - text: "Sorry, I do not have sufficient information to answer this question"
     
 
 actions:
