@@ -59,10 +59,10 @@ rules:
   - intent: im_voting_early_vote
   - action: utter_im_voting_early_vote
     
-- rule: Answer hour_polling_place_open
+- rule: Answer time_hour_polling_place_open
   steps:
-  - intent: hour_polling_place_open
-  - action: utter_hour_polling_place_open
+  - intent: time_hour_polling_place_open
+  - action: utter_time_hour_polling_place_open
     
 - rule: Answer take_vote
   steps:
@@ -169,6 +169,24 @@ rules:
   - intent: How_can_I_help
   - action: utter_How_can_I_help
     
+- rule: Answer Eligibility_Requirements
+  steps:
+  - intent: Eligibility_Requirements
+  - action: utter_ask_info
+  - action: utter_eligibility_requirements
+
+- rule: Answer Poll_Worker_Information_and_Application
+  steps:
+  - intent: Poll_Worker_Information_and_Application
+  - action: utter_ask_info
+  - action: utter_poll_worker_information_application
+
+- rule: Answer location_poll_place
+  steps:
+  - intent: location_poll_place
+  - action: utter_ask_info
+  - action: utter_location_poll_place
+
 - rule: Answer cant_find_answer_question
   steps:
   - intent: cant_find_answer_question

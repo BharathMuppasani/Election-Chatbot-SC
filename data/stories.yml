@@ -2,90 +2,90 @@ version: "3.1"
 
 stories:
 
-# - story: happy path
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_great
-#   - action: utter_happy
-#   - action: action_save_conversation
-#   - action: action_session_id
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - action: action_save_conversation
+  - action: action_session_id
 
-# - story: sad path 1
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  - action: action_save_conversation
+  - action: action_session_id
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+  - action: action_save_conversation
+  - action: action_session_id
+
+# - story: location path yes
 #   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
+#   - intent: Polling_Place_Locator
+#   # - action: utter_out_of_scope
+#   - action: utter_ask_info
 #   - intent: affirm
-#   - action: utter_happy
-#   - action: action_save_conversation
-#   - action: action_session_id
+#   # - action: utter_source_of_infomation
+#   - action: utter_polling_place_locator
+#   # - action: utter_end
 
-# - story: sad path 2
+# - story: location path no
 #   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
+#   - intent: Polling_Place_Locator
+#   # - action: utter_out_of_scope
+#   - action: utter_ask_info
 #   - intent: deny
-#   - action: utter_goodbye
-#   - action: action_save_conversation
-#   - action: action_session_id
+#   - action: utter_okay
 
-- story: location path yes
-  steps:
-  - intent: Polling_Place_Locator
-  # - action: utter_out_of_scope
-  - action: utter_ask_info
-  - intent: affirm
-  # - action: utter_source_of_infomation
-  - action: utter_polling_place_locator
-  # - action: utter_end
+# - story: poll worker path yes
+#   steps:
+#   - intent: Poll_Worker_Information_and_Application
+#   # - action: utter_out_of_scope
+#   - action: utter_ask_info
+#   - intent: affirm
+#   # - action: utter_source_of_infomation
+#   - action: utter_poll_worker_information_application
+#   # - action: utter_end
 
-- story: location path no
-  steps:
-  - intent: Polling_Place_Locator
-  # - action: utter_out_of_scope
-  - action: utter_ask_info
-  - intent: deny
-  - action: utter_okay
+# - story: poll worker path no
+#   steps:
+#   - intent: Poll_Worker_Information_and_Application
+#   # - action: utter_out_of_scope
+#   - action: utter_ask_info
+#   - intent: deny
+#   - action: utter_okay
 
-- story: poll worker path yes
-  steps:
-  - intent: Poll_Worker_Information_and_Application
-  # - action: utter_out_of_scope
-  - action: utter_ask_info
-  - intent: affirm
-  # - action: utter_source_of_infomation
-  - action: utter_poll_worker_information_application
-  # - action: utter_end
-
-- story: poll worker path no
-  steps:
-  - intent: Poll_Worker_Information_and_Application
-  # - action: utter_out_of_scope
-  - action: utter_ask_info
-  - intent: deny
-  - action: utter_okay
-
-- story: eligibility path yes
-  steps:
-  - intent: Eligibility_Requirements
-  # - action: utter_out_of_scope
-  - action: utter_ask_info
-  - intent: affirm
-  # - action: utter_source_of_infomation
-  - action: utter_eligibility_requirements
-  # - action: utter_end
+# - story: eligibility path yes
+#   steps:
+#   - intent: Eligibility_Requirements
+#   # - action: utter_out_of_scope
+#   - action: utter_ask_info
+#   - intent: affirm
+#   # - action: utter_source_of_infomation
+#   - action: utter_eligibility_requirements
+#   # - action: utter_end
   
 
-- story: eligibility path no
-  steps:
-  - intent: Eligibility_Requirements
-  # - action: utter_out_of_scope
-  - action: utter_ask_info
-  - intent: deny
-  - action: utter_okay
+# - story: eligibility path no
+#   steps:
+#   - intent: Eligibility_Requirements
+#   # - action: utter_out_of_scope
+#   - action: utter_ask_info
+#   - intent: deny
+#   - action: utter_okay

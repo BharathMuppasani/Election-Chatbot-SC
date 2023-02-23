@@ -151,7 +151,7 @@ nlu:
     - How do I vote early on Election Day?
     - How can I vote early on Election Day?
     - Why can't I vote early on Election Day?
-- intent: hour_polling_place_open
+- intent: time_hour_polling_place_open
   examples: |
     - What hours are polling places open on Election Day?
     - How many hours are polling places open on Election Day?
@@ -361,7 +361,7 @@ nlu:
     - How do I know if I am registered to vote in my state?
     - Can I vote if I am registered as an independent?
 
-- intent: Polling_Place_Locator
+- intent: location_poll_place
   examples: |
     - How can I find my polling place location?
     - What is the best way to locate my assigned polling place?

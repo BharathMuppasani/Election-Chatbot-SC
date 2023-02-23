@@ -17,7 +17,7 @@ intents:
   - How_can_I_vote_absentee
   - almost_election_day_still
   - im_voting_early_vote
-  - hour_polling_place_open
+  - time_hour_polling_place_open
   - take_vote
   - dont_one_photo_id
   - happens_photo_id_bring
@@ -42,7 +42,7 @@ intents:
   - cant_find_answer_question
   - Eligibility_Requirements
   - Poll_Worker_Information_and_Application
-  - Polling_Place_Locator
+  - location_poll_place
   - Do not answer
 
 responses:
@@ -191,7 +191,7 @@ Your precinct and polling place are also listed on your voter registration card,
 (https://scvotes.gov/)
 "
     
-  utter_hour_polling_place_open:
+  utter_time_hour_polling_place_open:
   - text: "Polling places will be open 7:00 a.m. to 7:00 p.m.  As long as you are in line by 7:00 p.m., you will be allowed to vote."
     
   utter_take_vote:
@@ -320,7 +320,7 @@ Not under a court order declaring you mentally incompetent
 Not confined in any public prison resulting from a conviction of a crime
 Not convicted of a felony or offense against the election laws or if previously convicted, have served the entire sentence, including probation or parole, or have received a pardon for the conviction"
 
-  utter_polling_place_locator:
+  utter_location_poll_place:
   - text: "Source: Vote411.org
   
   You can find your polling place by utilizing your state resource.
@@ -343,7 +343,6 @@ Not convicted of a felony or offense against the election laws or if previously 
   You will be entitled to compensation. You can fill out the application to become a poll worker here!
   To sign up, contact your local board of elections.
 
-
   (https://powerthepolls.org/lwv )
   (https://www.scvotes.org/files/yes.html)
   (https://absentee.vote411.org/vote/eoddomestic.htm)"
@@ -356,7 +355,7 @@ Not convicted of a felony or offense against the election laws or if previously 
   - text: "Sorry, I do not have sufficient information to answer this question"
 
   utter_ask_info:
-  - text: "I cannot find that information in official source. I have information from uofficial sources. Do you want me to expand the sources?"
+  - text: "I cannot find that information in official source. I have information from uofficial sources"
 
   utter_okay:
   - text: "Okay"
