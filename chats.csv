@@ -1,1 +1,38 @@
 input_time|conversation_id|count|intent|user_input| entity_name|entity_value|action|bot_reply|
+2022-11-17 09:25:20.186016|6d5d44dad3494399b764d0a805ebee48|U0|greet|hi|
+2022-11-17 09:25:20.186016|6d5d44dad3494399b764d0a805ebee48|B0|||||utter_greet|Hey! How are you?
+2022-11-17 09:25:20.186016|6d5d44dad3494399b764d0a805ebee48|U1|greet|hello|
+2022-11-17 09:25:20.186016|6d5d44dad3494399b764d0a805ebee48|B1|||||utter_greet|Hey! How are you?
+2022-11-17 09:25:20.186016|6d5d44dad3494399b764d0a805ebee48|U2|goodbye|bye|
+2022-11-17 09:25:20.191939|6d5d44dad3494399b764d0a805ebee48|B2|||||utter_goodbye|Bye
+2022-11-17 09:25:48.248612|6d5d44dad3494399b764d0a805ebee48|U0|greet|hi|
+2022-11-17 09:25:48.248612|6d5d44dad3494399b764d0a805ebee48|B0|||||utter_greet|Hey! How are you?
+2022-11-17 09:25:48.248612|6d5d44dad3494399b764d0a805ebee48|U1|greet|hello|
+2022-11-17 09:25:48.248612|6d5d44dad3494399b764d0a805ebee48|B1|||||utter_greet|Hey! How are you?
+2022-11-17 09:25:48.248612|6d5d44dad3494399b764d0a805ebee48|U2|goodbye|bye|
+2022-11-17 09:25:48.248612|6d5d44dad3494399b764d0a805ebee48|B2|||||utter_goodbye|Bye
+2022-11-17 09:25:48.250483|6d5d44dad3494399b764d0a805ebee48|U3|goodbye|test today|
+2022-11-17 09:25:48.250483|6d5d44dad3494399b764d0a805ebee48|B3|||||utter_goodbye|Bye
+2023-02-21 22:33:18.219909|34f003f342b2481dae33903d07dc3d22|U0|greet|/greet|
+2023-02-21 22:33:18.220917|34f003f342b2481dae33903d07dc3d22|B0|||||utter_greet|Hey! How are you?
+2023-02-21 22:33:18.221928|34f003f342b2481dae33903d07dc3d22|U1|greet|hi|
+2023-02-21 22:33:18.221928|34f003f342b2481dae33903d07dc3d22|B1|||||utter_greet|Hey! How are you?
+2023-02-21 22:33:18.222916|34f003f342b2481dae33903d07dc3d22|U2|happens_photo_id_bring|What happens if I have a Photo ID but don't bring it when voting in person?|
+2023-02-21 22:33:18.223912|34f003f342b2481dae33903d07dc3d22|B2|||||utter_happens_photo_id_bring|If you dont have your Photo ID with you when voting in person, you may vote a provisional ballot that will count only if you show your Photo ID to your county voter registration office prior to certification of the election (usually Thursday or Friday).
+2023-02-21 22:33:18.224909|34f003f342b2481dae33903d07dc3d22|U3|hour_polling_place_open|What is the time of polling places|
+2023-02-21 22:33:18.224909|34f003f342b2481dae33903d07dc3d22|B3|||||utter_hour_polling_place_open|Polling places will be open 7:00 a.m. to 7:00 p.m.  As long as you are in line by 7:00 p.m., you will be allowed to vote.
+2023-02-21 22:33:18.225923|34f003f342b2481dae33903d07dc3d22|U4|take_vote|what time i need to go for voting in polling booth|
+2023-02-21 22:33:18.226996|34f003f342b2481dae33903d07dc3d22|B4|||||utter_take_vote|Your Photo ID. When voting in person, you will be asked to show one of the following Photo IDs:
+SC Drivers License SC Department of Motor Vehicles ID Card
+includes SC Concealed Weapons Permit
+
+SC Voter Registration Card with Photo US Passport Federal Military ID
+includes all Department of Defense Photo IDs and the Department of Veterans Affairs Benefits Card
+2023-02-21 22:33:18.227909|34f003f342b2481dae33903d07dc3d22|U5|hour_polling_place_open|operating time of polling places|
+2023-02-21 22:33:18.228915|34f003f342b2481dae33903d07dc3d22|B5|||||utter_hour_polling_place_open|Polling places will be open 7:00 a.m. to 7:00 p.m.  As long as you are in line by 7:00 p.m., you will be allowed to vote.
+2023-02-21 22:33:18.229912|34f003f342b2481dae33903d07dc3d22|U6|hour_polling_place_open|where are the polling places located|
+2023-02-21 22:33:18.230915|34f003f342b2481dae33903d07dc3d22|B6|||||utter_hour_polling_place_open|Polling places will be open 7:00 a.m. to 7:00 p.m.  As long as you are in line by 7:00 p.m., you will be allowed to vote.
+2023-02-21 22:33:18.231806|34f003f342b2481dae33903d07dc3d22|U7|hour_polling_place_open|polling place|
+2023-02-21 22:33:18.232439|34f003f342b2481dae33903d07dc3d22|B7|||||utter_hour_polling_place_open|Polling places will be open 7:00 a.m. to 7:00 p.m.  As long as you are in line by 7:00 p.m., you will be allowed to vote.
+2023-02-21 22:33:18.232990|34f003f342b2481dae33903d07dc3d22|U8|goodbye|bye|
+2023-02-21 22:33:18.232990|34f003f342b2481dae33903d07dc3d22|B8|||||utter_goodbye|Bye

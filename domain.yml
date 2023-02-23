@@ -40,6 +40,9 @@ intents:
   - report_issue_file_complaint
   - How_can_I_help
   - cant_find_answer_question
+  - Eligibility_Requirements
+  - Poll_Worker_Information_and_Application
+  - Polling_Place_Locator
   - Do not answer
 
 responses:
@@ -305,9 +308,61 @@ If not resolved at the voting location, or if the issue or complaint is regardin
 (https://scvotes.gov/contact/county-voter-registration-election-offices/)
 "
     
+  utter_eligibility_requirements:
+  - text: "Source: Vote411.org
+  
+To be eligible to vote you must be:
+
+A United States citizen
+At least 18 years old on or before the election
+A resident of South Carolina
+Not under a court order declaring you mentally incompetent
+Not confined in any public prison resulting from a conviction of a crime
+Not convicted of a felony or offense against the election laws or if previously convicted, have served the entire sentence, including probation or parole, or have received a pardon for the conviction"
+
+  utter_polling_place_locator:
+  - text: "Source: Vote411.org
+  
+  You can find your polling place by utilizing your state resource.
+  If you have further questions on your polling place location, please contact your county clerk.
+
+  (https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo)
+  (https://www.overseasvotefoundation.org/vote/election-official-directory)
+  (https://absentee.vote411.org/vote/eoddomestic.htm)"
+
+  utter_poll_worker_information_application:
+  - text: "Source: Vote411.org
+
+  You can make sure we have safe, fair, and efficient elections for all. Become a poll worker today!
+  In order to be a poll worker in South Carolina, you must be:
+  Registered to vote in South Carolina
+  At least 18 years of age
+  A resident of the county 30 days prior to the election
+  Complete required training
+  Students 16 years or older may serve as poll manager's assistant
+  You will be entitled to compensation. You can fill out the application to become a poll worker here!
+  To sign up, contact your local board of elections.
+
+
+  (https://powerthepolls.org/lwv )
+  (https://www.scvotes.org/files/yes.html)
+  (https://absentee.vote411.org/vote/eoddomestic.htm)"
+
+
+  utter_source_of_infomation:
+  - text: "Source: Vote411.org"
+
   utter_Do not answer:
   - text: "Sorry, I do not have sufficient information to answer this question"
-    
+
+  utter_ask_info:
+  - text: "I cannot find that information in official source. I have information from uofficial sources. Do you want me to expand the sources?"
+
+  utter_okay:
+  - text: "Okay"
+
+  utter_end:
+  - text: "."
 
 actions:
   - action_save_conversation

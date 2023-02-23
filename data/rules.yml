@@ -14,14 +14,14 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
   - action: action_save_conversation
-  - action: action_session_id
+  # - action: action_session_id
 
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
   steps:
   - intent: nlu_fallback
   - action: utter_out_of_scope
   - action: action_save_conversation
-  - action: action_session_id
+  # - action: action_session_id
 
 
 - rule: Answer past_voter_registration_deadline
@@ -173,7 +173,7 @@ rules:
   steps:
   - intent: cant_find_answer_question
   - action: utter_cant_find_answer_question
-    
+
 - rule: Answer Do not answer
   steps:
   - intent: Do not answer

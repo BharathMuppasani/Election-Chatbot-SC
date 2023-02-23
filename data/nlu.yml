@@ -347,6 +347,47 @@ nlu:
     - I can't find an answer to my question. Are there any other resources available?
     - I can't find the answer to my question. Are there other resources?
     - I can't find the answer to my question. Are there any other resources?
+
+- intent: Eligibility_Requirements
+  examples: |
+    - What are the requirements for voting in my state?
+    - Am I eligible to vote in this election?
+    - How do I know if I am eligible to vote?
+    - What are the age requirements for voting in my state?
+    - Can I still vote if I have a criminal record?
+    - What are the residency requirements for voting in my state?
+    - Do I need to be a US citizen to vote?
+    - Can I vote if I am a student and my permanent address is in a different state?
+    - How do I know if I am registered to vote in my state?
+    - Can I vote if I am registered as an independent?
+
+- intent: Polling_Place_Locator
+  examples: |
+    - How can I find my polling place location?
+    - What is the best way to locate my assigned polling place?
+    - Is there a website where I can find my polling place information?
+    - Can I use my address to find my polling place location?
+    - Is there an app I can use to locate my polling place?
+    - What should I do if I can't find my polling place location?
+    - How can I confirm that I am registered to vote at the correct polling place?
+    - Is there a phone number I can call to find my polling place location?
+    - Can I still vote if I go to the wrong polling place by accident?
+    - What documents should I bring with me when I go to my polling place?
+
+- intent: Poll_Worker_Information_and_Application
+  examples: |
+    - How do I become a poll worker?
+    - What are the requirements for being a poll worker?
+    - What training is provided for poll workers?
+    - What are the duties of a poll worker?
+    - How do I find out if there are any available poll worker positions in my area?
+    - How much do poll workers get paid?
+    - Can I be a poll worker if I am not affiliated with a political party?
+    - What happens if a poll worker makes a mistake or there is a problem at the polling place?
+    - How can I report a problem with a poll worker?
+    - What accommodations are available for poll workers with disabilities?
+
+
 - intent: Do not answer
   examples: |
     - Whom should I vote for in the elections?
