@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import textdistance
 
 def send_message_to_rasa(user_message):
     url = "http://localhost:5005/webhooks/rest/webhook"
@@ -18,7 +19,11 @@ def preprocess_string(s):
 def score_response(expected_answer, rasa_answer):
     expected_answer_sanitized = preprocess_string(expected_answer)
     rasa_answer_sanitized = preprocess_string(rasa_answer)
-    return 1 if expected_answer_sanitized == rasa_answer_sanitized else 0
+    
+    # Calculate Monge-Elkan similarity
+    similarity = textdistance.monge_elkan.normalized_similarity(expected_answer_sanitized.split(), rasa_answer_sanitized.split())
+
+    return similarity
 
 def test_rasa_with_csv(file_path):
     df = pd.read_csv(file_path)
@@ -26,6 +31,7 @@ def test_rasa_with_csv(file_path):
     total_questions = len(df)
     total_score = 0
 
+    
     for index, row in df.iterrows():
         question = row['Question']
         expected_answer = row['Answer']
